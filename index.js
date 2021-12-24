@@ -50,8 +50,11 @@ console.log(myPosition);
 //Clicks the search code field
 await page.click("#dnn_ctr1535_UNSPSCSearch_txtsearchCode");
 
+
+//Inserts and types in the UNSPSC codes given into the search field
 const search = await page.type("#dnn_ctr1535_UNSPSCSearch_txtsearchCode", code[1], {delay: 100} );
 
+//clicks the search button
 await page.click("#dnn_ctr1535_UNSPSCSearch_btnSearch");
 
 await new Promise(resolve => setTimeout(resolve, 1000));
