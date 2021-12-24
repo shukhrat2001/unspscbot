@@ -1,7 +1,6 @@
 
-//Please uncomment and install dependencies before running this code
-//Github does not accept copy of Chromium, its a large file
-//const puppeteer = require('puppeteer');
+//Please install dependencies before running and testing this code with Nodejs (v16.9.1)
+const puppeteer = require('puppeteer');
 const xlsx = require("xlsx");
 const fs = require('fs');
 
